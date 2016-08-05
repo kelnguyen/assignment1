@@ -138,3 +138,12 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+// Adding an Options Page
+
+require get_stylesheet_directory() . '/inc/options.php';
+
+
+// Footer Menu //
+
+register_nav_menus( array( 'secondary'=>'Footer Menu' ) );
